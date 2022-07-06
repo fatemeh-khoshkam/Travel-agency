@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;400;500;700;800&display=swap');
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Urbanist", Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+input,
+button,
+textarea,
+select,
+input[type="text"]::placeholder {
+    font-family: inherit;
+}
+textarea {
+    resize: none;
+}
+.container {
+    padding-inline: 2em;
+    margin-inline: auto;
+    width: 1400px;
+    max-width: 90%;
+}
